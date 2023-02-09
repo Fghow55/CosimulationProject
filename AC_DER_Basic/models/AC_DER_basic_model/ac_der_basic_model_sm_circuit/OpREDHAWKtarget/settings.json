@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\fghow\\OPAL-RT\\RT-LABv2022.1_Workspace\\AC_DER_Basic\\models\\AC_DER_basic_model",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

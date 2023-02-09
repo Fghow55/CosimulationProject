@@ -1,0 +1,34 @@
+          model ac_der_basic_model_1_sm_circuit assigned to logical cpu 1
+          Model 'ac_der_basic_model_1_sm_circuit' compiled in RELEASE mode.
+          16 CPUs active on this Computer
+          OS version: Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+          libOpalR2021B.a : v2022.1.0.405 (build = undefined)
+          Monitoring is enabled
+          RECV: connection to host established
+          SEND: connection to host established
+            >>>> SessionRoot::initialize port 0
+           Root initialized: 192.168.10.12:25252/resources/root
+          Display of standard output will be disabled
+          SubSystem step size = 0.000100 sec. Status updated at every 1 local step.
+          XHP mode enabled on this CPU.
+          Synchronized with polling  software timer.
+          Watchdog ready.
+          Real-time SingleTasking mode.
+          RT-LAB license ok. Unlimited time license.
+          Snapshot taken (opac_der_basic_model_sm_circuit_0.snap).
+           [0]: PAUSE mode, IO set to pause value.
+          		Total of 0 Overrun detected.
+          		Mon Jan 23 14:37:02 2023
+
+          XHP mode enabled
+           [1]: RUN mode, IO set to run value.
+          		Synchronized step size = 100 us.
+          		Mon Jan 23 14:37:02 2023
+
+          Main priority set to 99
+          XHP mode disabled
+           [13895]: Reset
+          		Total of 0 Overrun detected.
+          		Mon Jan 23 14:37:04 2023
+
+          Reset done

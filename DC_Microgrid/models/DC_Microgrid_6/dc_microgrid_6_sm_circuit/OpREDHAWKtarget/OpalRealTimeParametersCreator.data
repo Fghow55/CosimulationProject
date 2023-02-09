@@ -1,0 +1,1086 @@
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Freq1/Value
+/
+
+0
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Constant1/Value
+/
+
+1
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/cos(wt)/Frequency
+/
+
+2
+F64
+1
+sm_circuit/Power1/Fourier/cos(wt)/Frequency
+/
+
+3
+F64
+1
+sm_circuit/Power1/Fourier1/cos(wt)/Frequency
+/
+
+4
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/K2/Value
+/
+
+5
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/K2/Value
+/
+
+6
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/K2/Value
+/
+
+7
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/K2/Value
+/
+
+8
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Constant1/Value
+/
+
+9
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Constant/Value
+/
+
+10
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Constant/Value
+/
+
+11
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Constant/Value
+/
+
+12
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Constant/Value
+/
+
+13
+F64
+1
+sm_circuit/RMS1/Constant/Value
+/
+
+14
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Triangle/Look-Up Table1/Table
+/
+
+15
+F64
+4
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Constant/Value
+/
+
+16
+F64
+3
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/m3/Value
+/
+
+17
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Gain2/Gain
+/
+
+18
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Gain/Gain
+/
+
+19
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/m4/Value
+/
+
+20
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/OP_max1/Value
+/
+
+21
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/OP_min1/Value
+/
+
+22
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem/K2/Value
+/
+
+23
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Constant2/Value
+/
+
+24
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Switch2/Threshold
+/
+
+25
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Deg-_Rad/Gain
+/
+
+26
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem1/Freq2/Value
+/
+
+27
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/Subsystem/K1/Value
+/
+
+28
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/OP max __ min/OP_max1/Value
+/
+
+29
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/OP max __ min/OP_min1/Value
+/
+
+30
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Gain/Gain
+/
+
+31
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Gain1/Gain
+/
+
+32
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Gain/Gain
+/
+
+33
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Gain1/Gain
+/
+
+34
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Gain/Gain
+/
+
+35
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Gain1/Gain
+/
+
+36
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Gain/Gain
+/
+
+37
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Gain1/Gain
+/
+
+38
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/Gain/Gain
+/
+
+39
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/Gain/Gain
+/
+
+40
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/Gain/Gain
+/
+
+41
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/Gain/Gain
+/
+
+42
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Gain/Gain
+/
+
+43
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Gain/Gain
+/
+
+44
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/integrator/InitialCondition
+/
+
+45
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay/DelayTime
+/
+
+46
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay/InitialOutput
+/
+
+47
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/K1/Value
+/
+
+48
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Memory/InitialCondition
+/
+
+49
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/integrator/InitialCondition
+/
+
+50
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Transport Delay/DelayTime
+/
+
+51
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Transport Delay/InitialOutput
+/
+
+52
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/K1/Value
+/
+
+53
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Memory/InitialCondition
+/
+
+54
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/sin(wt)/Amplitude
+/
+
+55
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/sin(wt)/Bias
+/
+
+56
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/sin(wt)/Phase
+/
+
+57
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/cos(wt)/Amplitude
+/
+
+58
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/cos(wt)/Bias
+/
+
+59
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/cos(wt)/Phase
+/
+
+60
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Rad-_Deg./Gain
+/
+
+61
+F64
+1
+sm_circuit/RMS1/RMS /Gain/Gain
+/
+
+62
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Gain/Gain
+/
+
+63
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/integrator/InitialCondition
+/
+
+64
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Transport Delay/DelayTime
+/
+
+65
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Transport Delay/InitialOutput
+/
+
+66
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/K1/Value
+/
+
+67
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Memory/InitialCondition
+/
+
+68
+F64
+1
+sm_circuit/RMS1/TrueRMS /Saturation to avoid negative sqrt/UpperLimit
+/
+
+69
+F64
+1
+sm_circuit/RMS1/TrueRMS /Saturation to avoid negative sqrt/LowerLimit
+/
+
+70
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Universal Bridge1/Model/Constant/Value
+/
+
+73
+F64
+6
+sm_circuit/Sine Wave3/Amplitude
+/
+
+74
+F64
+1
+sm_circuit/Sine Wave3/Bias
+/
+
+75
+F64
+1
+sm_circuit/Sine Wave3/Frequency
+/
+
+76
+F64
+1
+sm_circuit/Sine Wave3/Phase
+/
+
+77
+F64
+1
+sm_circuit/Constant/Value
+/
+
+82
+F64
+1
+sm_circuit/Sine Wave4/Amplitude
+/
+
+83
+F64
+1
+sm_circuit/Sine Wave4/Bias
+/
+
+84
+F64
+1
+sm_circuit/Sine Wave4/Frequency
+/
+
+85
+F64
+1
+sm_circuit/Sine Wave4/Phase
+/
+
+86
+F64
+1
+sm_circuit/Sine Wave5/Amplitude
+/
+
+87
+F64
+1
+sm_circuit/Sine Wave5/Bias
+/
+
+88
+F64
+1
+sm_circuit/Sine Wave5/Frequency
+/
+
+89
+F64
+1
+sm_circuit/Sine Wave5/Phase
+/
+
+90
+F64
+1
+sm_circuit/Delay1/InitialCondition
+/
+
+91
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/integrator/InitialCondition
+/
+
+97
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/Transport Delay/DelayTime
+/
+
+98
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/Transport Delay/InitialOutput
+/
+
+99
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/K1/Value
+/
+
+100
+F64
+1
+sm_circuit/Power1/Fourier/Mean value1/Model/Memory/InitialCondition
+/
+
+101
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/integrator/InitialCondition
+/
+
+102
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/Transport Delay/DelayTime
+/
+
+103
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/Transport Delay/InitialOutput
+/
+
+104
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/K1/Value
+/
+
+105
+F64
+1
+sm_circuit/Power1/Fourier/Mean/Model/Memory/InitialCondition
+/
+
+106
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/integrator/InitialCondition
+/
+
+107
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/Transport Delay/DelayTime
+/
+
+108
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/Transport Delay/InitialOutput
+/
+
+109
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/K1/Value
+/
+
+110
+F64
+1
+sm_circuit/Power1/Fourier1/Mean value1/Model/Memory/InitialCondition
+/
+
+111
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/integrator/InitialCondition
+/
+
+112
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/Transport Delay/DelayTime
+/
+
+113
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/Transport Delay/InitialOutput
+/
+
+114
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/K1/Value
+/
+
+115
+F64
+1
+sm_circuit/Power1/Fourier1/Mean/Model/Memory/InitialCondition
+/
+
+116
+F64
+1
+sm_circuit/Power1/Gain1/Gain
+/
+
+117
+F64
+1
+sm_circuit/Power1/Fourier/Rad-_Deg./Gain
+/
+
+118
+F64
+1
+sm_circuit/Power1/Fourier1/Rad-_Deg./Gain
+/
+
+119
+F64
+1
+sm_circuit/Power1/Deg-_Rad/Gain
+/
+
+120
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/I A:/do not delete this gain/Gain
+/
+
+121
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/I B:/do not delete this gain/Gain
+/
+
+122
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/I C:/do not delete this gain/Gain
+/
+
+123
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Kv/Gain
+/
+
+124
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/U A:/do not delete this gain/Gain
+/
+
+127
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/U B:/do not delete this gain/Gain
+/
+
+128
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Model/U C:/do not delete this gain/Gain
+/
+
+129
+F64
+1
+sm_circuit/Three-Phase V-I Measurement1/Kv1/Gain
+/
+
+130
+F64
+1
+sm_circuit/Power1/Fourier/sin(wt)/Amplitude
+/
+
+131
+F64
+1
+sm_circuit/Power1/Fourier/sin(wt)/Bias
+/
+
+132
+F64
+1
+sm_circuit/Power1/Fourier/sin(wt)/Phase
+/
+
+133
+F64
+1
+sm_circuit/Power1/Fourier/cos(wt)/Amplitude
+/
+
+134
+F64
+1
+sm_circuit/Power1/Fourier/cos(wt)/Bias
+/
+
+135
+F64
+1
+sm_circuit/Power1/Fourier/cos(wt)/Phase
+/
+
+136
+F64
+1
+sm_circuit/Power1/Fourier1/sin(wt)/Amplitude
+/
+
+137
+F64
+1
+sm_circuit/Power1/Fourier1/sin(wt)/Bias
+/
+
+138
+F64
+1
+sm_circuit/Power1/Fourier1/sin(wt)/Phase
+/
+
+139
+F64
+1
+sm_circuit/Power1/Fourier1/cos(wt)/Amplitude
+/
+
+140
+F64
+1
+sm_circuit/Power1/Fourier1/cos(wt)/Bias
+/
+
+141
+F64
+1
+sm_circuit/Power1/Fourier1/cos(wt)/Phase
+/
+
+142
+F64
+1
+sm_circuit/Voltage Measurement2/do not delete this gain/Gain
+/
+
+143
+F64
+1
+sm_circuit/Current Measurement7/do not delete this gain/Gain
+/
+
+144
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Unit Delay4/InitialCondition
+/
+
+145
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab/do not delete this gain/Gain
+/
+
+146
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vbc/do not delete this gain/Gain
+/
+
+147
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vca/do not delete this gain/Gain
+/
+
+148
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Integ4/gainval
+/
+
+149
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Integ4/InitialCondition
+/
+
+150
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/K1/Value
+/
+
+151
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Unit Delay/InitialCondition
+/
+
+152
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Step/Before
+/
+
+153
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Step/After
+/
+
+154
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Discrete  Mean value/Switch/Threshold
+/
+
+155
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Saturation Ajout P.B pour eviter  sqrt(negatif)/UpperLimit
+/
+
+156
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab3/Saturation Ajout P.B pour eviter  sqrt(negatif)/LowerLimit
+/
+
+157
+F64
+1
+sm_circuit/Inv. control measurement/measurement/a/do not delete this gain/Gain
+/
+
+158
+F64
+1
+sm_circuit/Inv. control measurement/measurement/b/do not delete this gain/Gain
+/
+
+159
+F64
+1
+sm_circuit/Inv. control measurement/measurement/c/do not delete this gain/Gain
+/
+
+160
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Integ4/gainval
+/
+
+161
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Integ4/InitialCondition
+/
+
+162
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/K1/Value
+/
+
+163
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Unit Delay/InitialCondition
+/
+
+164
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Step/Before
+/
+
+165
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Step/After
+/
+
+166
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Discrete  Mean value/Switch/Threshold
+/
+
+167
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Saturation Ajout P.B pour eviter  sqrt(negatif)/UpperLimit
+/
+
+168
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab5/Saturation Ajout P.B pour eviter  sqrt(negatif)/LowerLimit
+/
+
+169
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Integ4/gainval
+/
+
+170
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Integ4/InitialCondition
+/
+
+171
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/K1/Value
+/
+
+172
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Unit Delay/InitialCondition
+/
+
+173
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Step/Before
+/
+
+174
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Step/After
+/
+
+175
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Discrete  Mean value/Switch/Threshold
+/
+
+176
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Saturation Ajout P.B pour eviter  sqrt(negatif)/UpperLimit
+/
+
+177
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab1/Saturation Ajout P.B pour eviter  sqrt(negatif)/LowerLimit
+/
+
+178
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Integ4/gainval
+/
+
+179
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Integ4/InitialCondition
+/
+
+180
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/K1/Value
+/
+
+181
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Unit Delay/InitialCondition
+/
+
+182
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Step/Before
+/
+
+183
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Step/After
+/
+
+184
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Discrete  Mean value/Switch/Threshold
+/
+
+185
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Saturation Ajout P.B pour eviter  sqrt(negatif)/UpperLimit
+/
+
+186
+F64
+1
+sm_circuit/Inv. control measurement/measurement/Vab2/Saturation Ajout P.B pour eviter  sqrt(negatif)/LowerLimit
+/
+
+187
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/OP max __ min/1 for max load, 0 for min/Value
+/
+
+188
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/MI Controller/OP max __ min/Switch2/Threshold
+/
+
+189
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Switch/Threshold
+/
+
+190
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Triangle/Constant/Value
+/
+
+191
+F64
+1
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Triangle/Look-Up Table1/BreakpointsForDimension1
+/
+
+192
+F64
+4
+sm_circuit/Grid Bi-directional Converter 1.1   300 (DC)  150 V (AC) P_nom 3kW1/Control of  Inverter/Discrete PWM Generator1/Gain3/Gain
+/
+
+193
+F64
+1

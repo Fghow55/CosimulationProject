@@ -1,0 +1,30 @@
+sm_circuit/Sine Wave/Amplitude
+/
+
+6
+F64
+1
+sm_circuit/Sine Wave/Bias
+/
+
+7
+F64
+1
+sm_circuit/Sine Wave/Frequency
+/
+
+8
+F64
+1
+sm_circuit/Sine Wave/Phase
+/
+
+9
+F64
+1
+sm_circuit/Subsystem_around_RTP_983F50E8_vc/Subsystem_around_RTP_983F50E8_vc/Value
+/
+
+10
+F64
+1

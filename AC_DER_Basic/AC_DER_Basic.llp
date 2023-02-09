@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>AC_DER_Basic</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>192.168.10.10:25255</att_ip_address>
+        <att_hashcode>8F832008-CB10-480F-AA01-56276EB9C5F8</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\fghow\OPAL-RT\RT-LABv2022.1_Workspace\AC_DER_Basic\AC_DER_Basic.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/AC_DER_basic_model/AC_DER_basic_model.slx</Relative>
+                <Absolute>C:/Users/fghow/OPAL-RT/RT-LABv2022.1_Workspace/AC_DER_Basic/models/AC_DER_basic_model/AC_DER_basic_model.slx</Absolute>
+                <UNC>C:/Users/fghow/OPAL-RT/RT-LABv2022.1_Workspace/AC_DER_Basic/models/AC_DER_basic_model/AC_DER_basic_model.slx</UNC>
+            </Path>
+        </Model>
+    </Models>
+</Project>

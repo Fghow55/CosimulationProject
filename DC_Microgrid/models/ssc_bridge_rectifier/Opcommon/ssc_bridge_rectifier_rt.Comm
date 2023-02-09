@@ -1,0 +1,3 @@
+ssc_bridge_rectifier_rt/sm_circuit/OpComm: 2 : 0.000100000000000 : 0.000100000000000 : 1 : 0 : [169.705627484771,1]
+ssc_bridge_rectifier_rt/sc_display/OpComm: 1,1 : 0.000000000000000 : 0.000000000000000, 0.000000000000000 : 1 : 0 : [0,0]
+SampleTime=0.000100000000000

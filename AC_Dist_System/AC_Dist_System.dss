@@ -1,0 +1,67 @@
+! NZ: 115kV to 11kV to 400kV
+
+Clear 
+Set DefaultBaseFrequency=50
+
+New object=circuit.personal13 ! define circuit object
+~ basekv=115 pu=1.0001 angle=30 mvasc3=20000
+~ bus1=sourcebus                         mvasc1=21000
+
+! SUB XFMR
+
+New Transformer.SubXF Phases=3 Windings=2 Xhl=(8 1000 /)               ! Xhl taken from X% , 3 phases, 2 connetions
+~ wdg=1  bus=sourcebus  conn=delta  kv=115  kva=5000  %r=(.5 1000 /)  XHT=4       ! from xfmr data, %r units smudged to fit 34bus
+~ wdg=2  bus=650  conn=wye  kv=11  kva=5000  %r=(.5 1000 /)  XHT=4         ! ignoring grounding, dont know what (a b /) means
+
+
+
+! NEW LINECODES 
+
+! Numbers taken from 13Bus feeder doc, the ones in IEEELineCodes.DSS didn't work
+
+New linecode.601 nphases=3 BaseFreq=60 units=mi
+~ rmatrix = [.3465 | .1560 .3375 | .1580 .1535 .3414]
+~ xmatrix = [1.0179 | 0.5017 1.0478 | 0.4236 0.3849 1.0348]
+
+New linecode.602 nphases=3 BaseFreq=60 units=mi
+~ rmatrix = [.7526 | .1580 .7475 | .1560 .1535 .7436]
+~ xmatrix = [1.1814 | 0.4236 1.1983 | 0.5017 0.3849 1.2112]
+
+
+
+! LINES
+
+New Line.L1  Phases=3  Bus1=650.1.2.3  Bus2=632.1.2.3  LineCode=601  Length=2000 units=ft
+
+New Line.L2  Phases=3  Bus1=632.1.2.3  Bus2=671.1.2.3  LineCode=601  Length=2000 units=ft 
+
+New Line.L3  Phases=3  Bus1=632.1.2.3  Bus2=633.1.2.3  LineCode=602  Length=500 units=ft 
+
+
+
+! XFMR
+
+New Transformer.XFM1  Phases=3  Windings=2  Xhl=2
+~ wdg=1  bus=633  conn=wye  kv=11  kva=500  %r=.55 ! not sure about %r
+~ wdg=2  bus=634  conn=wye  kv=0.4  kva=500  %r=.55
+
+
+
+! SPOT LOADS
+
+New Load.S671  Bus1=671  Phases=3  Conn=delta  Model=1  kV=11  kW=100  kVAR=100
+
+New Load.S634  Bus1=634  Phases=3  Conn=delta  Model=1  kV=.4  kW=10  kVAR=10 ! This is the variable load, it seems to work for negative kW and kVAR. Keep them symmetrical. 
+
+! Deciding to use Load object instead of ISource object, because it has a much more elegant simulation. We'll use voltage from OpenDSS and current from Opal to calculate the kW and kVAR.
+
+!New ISource.S634I Bus1=634 Phases=3 amps=.4
+
+Set Voltagebases=[115, 11, 0.4]
+calcv
+
+Solve
+
+
+!COMHelp
+

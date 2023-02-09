@@ -1,0 +1,1 @@
+{"io_name":"RECORDER_DC_Microgrid_6_sm_circuit","io_config_file_name":"E9EB0FA8-205C-4BE4-A346-58CBB02E65FE.opal","bus_in":{"name":"bus_RECORDER_DC_Microgrid_6_sm_circuit_in","type":"bus","items":[{"name":"SIGNAL_GROUP_1","type":"bus","items":[{"name":"log_input","type":"F64","num_point":"1"},{"name":"trigger_input","type":"F64","num_point":"1"}]}]}}

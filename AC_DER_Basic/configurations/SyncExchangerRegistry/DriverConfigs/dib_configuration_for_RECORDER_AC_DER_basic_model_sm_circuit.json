@@ -1,0 +1,1 @@
+{"io_name":"RECORDER_AC_DER_basic_model_sm_circuit","io_config_file_name":"0F8F457C-8CEC-44B6-BCE8-6CB09C4786ED.opal","bus_in":{"name":"bus_RECORDER_AC_DER_basic_model_sm_circuit_in","type":"bus","items":[{"name":"SIGNAL_GROUP_1","type":"bus","items":[{"name":"log_input","type":"F64","num_point":"1"},{"name":"trigger_input","type":"F64","num_point":"1"}]}]}}

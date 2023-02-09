@@ -1,0 +1,606 @@
+sm_circuit/OpComm1/Receive/S-Function/port1
+/
+
+2
+F64
+2
+sm_circuit/Sign/port1
+/
+
+3
+F64
+1
+sm_circuit/Product1/port1
+/
+
+4
+F64
+1
+sm_circuit/Sine Wave1/port1
+/
+
+5
+F64
+1
+sm_circuit/Sine Wave2/port1
+/
+
+6
+F64
+1
+sm_circuit/Sine Wave3/port1
+/
+
+7
+F64
+1
+sm_circuit/Product2/port1
+/
+
+8
+F64
+3
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_1_1_1/port1
+/
+
+9
+F64
+4
+sm_circuit/Product3/port1
+/
+
+10
+F64
+1
+sm_circuit/Sine Wave4/port1
+/
+
+11
+F64
+1
+sm_circuit/Sine Wave5/port1
+/
+
+12
+F64
+1
+sm_circuit/Sine Wave6/port1
+/
+
+13
+F64
+1
+sm_circuit/Delay/port1
+/
+
+14
+F64
+1
+sm_circuit/RMS2/Switch/port1
+/
+
+15
+F64
+1
+sm_circuit/Divide/port1
+/
+
+16
+F64
+3
+sm_circuit/Product6/port1
+/
+
+17
+F64
+3
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_2_1_1/port1
+/
+
+18
+F64
+4
+sm_circuit/Solver Configuration1/EVAL_KEY/LTI_OUTPUT_1_1/port1
+/
+
+19
+F64
+1
+sm_circuit/RMS1/Switch/port1
+/
+
+20
+F64
+1
+sm_circuit/Product4/port1
+/
+
+21
+F64
+1
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_1_1_2/port1
+/
+
+22
+F64
+4
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_1_1_3/port1
+/
+
+23
+F64
+4
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_2_1_2/port1
+/
+
+24
+F64
+4
+sm_circuit/Solver Configuration1/EVAL_KEY/INPUT_2_1_3/port1
+/
+
+25
+F64
+4
+sm_circuit/Solver Configuration1/EVAL_KEY/LTI_OUTPUT_1_2/port1
+/
+
+26
+F64
+1
+sm_circuit/RMS2/Data Type Conversion/port1
+/
+
+27
+Boolean
+1
+sm_circuit/RMS2/Logical Operator/port1
+/
+
+28
+Boolean
+1
+sm_circuit/RMS1/Data Type Conversion/port1
+/
+
+29
+Boolean
+1
+sm_circuit/RMS1/Logical Operator/port1
+/
+
+30
+Boolean
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Clock/port1
+/
+
+31
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/integrator/port1
+/
+
+32
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Transport Delay/port1
+/
+
+33
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Memory/port1
+/
+
+34
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Switch/port1
+/
+
+35
+F64
+1
+sm_circuit/RMS2/TrueRMS /Product/port1
+/
+
+36
+F64
+1
+sm_circuit/RMS2/TrueRMS /Saturation to avoid negative sqrt/port1
+/
+
+37
+F64
+1
+sm_circuit/RMS2/TrueRMS /Sqrt/port1
+/
+
+38
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Sum/port1
+/
+
+39
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Gain/port1
+/
+
+40
+F64
+1
+sm_circuit/RMS2/TrueRMS /Mean value/Model/Relational Operator/port1
+/
+
+41
+Boolean
+1
+sm_circuit/RMS2/RMS /Fourier1/Real-Imag to Complex/port1
+/
+
+42
+F64
+2
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/integrator/port1
+/
+
+43
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Transport Delay/port1
+/
+
+44
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Clock/port1
+/
+
+45
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Memory/port1
+/
+
+46
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Switch/port1
+/
+
+47
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/integrator/port1
+/
+
+48
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Transport Delay/port1
+/
+
+49
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Clock/port1
+/
+
+50
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Memory/port1
+/
+
+51
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Switch/port1
+/
+
+52
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Complex to Magnitude-Angle/port1
+/
+
+53
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Complex to Magnitude-Angle/port2
+/
+
+54
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/sin(wt)/port1
+/
+
+55
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Product/port1
+/
+
+56
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/cos(wt)/port1
+/
+
+57
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Product1/port1
+/
+
+58
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Rad-_Deg./port1
+/
+
+59
+F64
+1
+sm_circuit/RMS2/RMS /Gain/port1
+/
+
+60
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Sum/port1
+/
+
+61
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Gain/port1
+/
+
+62
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Sum/port1
+/
+
+63
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Gain/port1
+/
+
+64
+F64
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean value1/Model/Relational Operator/port1
+/
+
+65
+Boolean
+1
+sm_circuit/RMS2/RMS /Fourier1/Mean/Model/Relational Operator/port1
+/
+
+66
+Boolean
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Clock/port1
+/
+
+67
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/integrator/port1
+/
+
+68
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Transport Delay/port1
+/
+
+69
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Memory/port1
+/
+
+70
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Switch/port1
+/
+
+71
+F64
+1
+sm_circuit/RMS1/TrueRMS /Product/port1
+/
+
+72
+F64
+1
+sm_circuit/RMS1/TrueRMS /Saturation to avoid negative sqrt/port1
+/
+
+73
+F64
+1
+sm_circuit/RMS1/TrueRMS /Sqrt/port1
+/
+
+74
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Sum/port1
+/
+
+75
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Gain/port1
+/
+
+76
+F64
+1
+sm_circuit/RMS1/TrueRMS /Mean value/Model/Relational Operator/port1
+/
+
+77
+Boolean
+1
+sm_circuit/RMS1/RMS /Fourier1/Real-Imag to Complex/port1
+/
+
+78
+F64
+2
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/integrator/port1
+/
+
+79
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay/port1
+/
+
+80
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Clock/port1
+/
+
+81
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Memory/port1
+/
+
+82
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Switch/port1
+/
+
+83
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/integrator/port1
+/
+
+84
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Transport Delay/port1
+/
+
+85
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Clock/port1
+/
+
+86
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Memory/port1
+/
+
+87
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Switch/port1
+/
+
+88
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Complex to Magnitude-Angle/port1
+/
+
+89
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Complex to Magnitude-Angle/port2
+/
+
+90
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/sin(wt)/port1
+/
+
+91
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Product/port1
+/
+
+92
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/cos(wt)/port1
+/
+
+93
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Product1/port1
+/
+
+94
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Rad-_Deg./port1
+/
+
+95
+F64
+1
+sm_circuit/RMS1/RMS /Gain/port1
+/
+
+96
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Sum/port1
+/
+
+97
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Gain/port1
+/
+
+98
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Sum/port1
+/
+
+99
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Gain/port1
+/
+
+100
+F64
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean value1/Model/Relational Operator/port1
+/
+
+101
+Boolean
+1
+sm_circuit/RMS1/RMS /Fourier1/Mean/Model/Relational Operator/port1
+/
+
+102
+Boolean
+1

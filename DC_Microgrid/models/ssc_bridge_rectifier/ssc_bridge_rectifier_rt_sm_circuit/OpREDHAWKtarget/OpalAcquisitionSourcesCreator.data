@@ -1,0 +1,66 @@
+sm_circuit/OpComm/Receive/S-Function/port1
+/
+
+2
+F64
+2
+sm_circuit/Sine Wave/port1
+/
+
+3
+F64
+1
+sm_circuit/Product/port1
+/
+
+4
+F64
+1
+sm_circuit/Solver Configuration/EVAL_KEY/INPUT_1_1_1/port1
+/
+
+5
+F64
+4
+sm_circuit/Solver Configuration/RTP_1/port1
+/
+
+6
+F64
+1
+sm_circuit/Solver Configuration/EVAL_KEY/STATE_1/port1
+/
+
+7
+F64
+11
+sm_circuit/Solver Configuration/EVAL_KEY/OUTPUT_1_0/port1
+/
+
+8
+F64
+1
+sm_circuit/OpMonitor/port1
+/
+
+9
+F64
+1
+sm_circuit/OpMonitor/port2
+/
+
+10
+F64
+1
+sm_circuit/OpMonitor/port3
+/
+
+11
+F64
+1
+sm_circuit/OpMonitor/port4
+/
+
+12
+F64
+1

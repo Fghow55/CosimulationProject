@@ -1,0 +1,45 @@
+
+New Load.s671
+! ENABLED
+~ phases=3
+~ bus1=671.1.2.3
+~ kV=4.16
+~ kW=  1155.0
+~ pf=0.868
+~ model=1
+~ yearly=
+~ daily=
+~ duty=
+~ growth=
+~ conn=delta
+~ kvar=   660.0
+~ Rneut=-1
+~ Xneut=0
+~ status=variable
+~ class=1
+~ Vminpu=0.95
+~ Vmaxpu=1.05
+~ Vminnorm=0.0
+~ Vminemerg=0.0
+~ xfkVA=0.0
+~ allocationfactor=0.500
+~ kVA=  1330.3
+~ %mean=50
+~ %stddev=10
+~ CVRwatts=1
+~ CVRvars=2
+~ kwh=0
+~ kwhdays=30
+~ Cfactor=4
+~ CVRcurve=
+~ NumCust=1
+~ ZIPV="
+~ %SeriesRL=    50.0
+~ RelWeight=1
+~ Vlowpu=0.5
+~ puXharm=0
+~ XRharm=6
+~ spectrum=defaultload
+~ basefreq=50
+~ enabled=true
+~ like=

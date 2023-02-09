@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\fghow\\OPAL-RT\\RT-LABv2022.1_Workspace\\DC_Microgrid_6\\models\\ssc_bridge_rectifier",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableLoadParamList":
+    {
+      "name":"327EDD7E-0A94-456F-8747-F74ED6002C35",
+      "loadParamSets":
+      [
+        "AC_DER_basic_model.slx"
+      ],
+      "parent":"/"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableLoadParamList":
+    {
+      "name":"2268353F-0222-4821-8BE5-C56679F17D31",
+      "loadParamSets":
+      [
+        "ssc_bridge_rectifier_rt.slx",
+        "DC_Microgrid_6.slx"
+      ],
+      "parent":"/"
+    }
+  }
+]
