@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 # set up OpenDSS environment
-dss.Text.Command('Redirect C:\\Users\\fghow\\Documents\\OpenDSS\\OpenDSS_work\\AC_Dist_System\\AC_Dist_System.dss')
+dss.Text.Command('Redirect C:\\Users\\fghow\\Documents\\Auckland\\CosimulationProject\\AC_Dist_System\\AC_Dist_System.dss')
 dss.Circuit.SetActiveElement('Load.S634')
 dss.Text.Command('Set DefaultBaseFrequency=50')
 
@@ -17,7 +17,7 @@ dss.Text.Command('Set DefaultBaseFrequency=50')
 
 
 # get input load curves, trim to 10 15-minute data points
-powers = pd.read_csv('C:\\Users\\fghow\\Documents\\OpenDSS\\OpenDSS_work\\HouseholdLoadData\\House1Simplified.csv')
+powers = pd.read_csv('C:\\Users\\fghow\\Documents\\Auckland\\CosimulationProject\\HouseholdLoadData\\House1Simplified.csv')
 #powers = powers[60:70]
 
 powers['Net Load'] = (powers['Load (kW)'] - powers['PV (kW)'])
