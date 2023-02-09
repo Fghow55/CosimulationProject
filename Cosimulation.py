@@ -25,11 +25,8 @@ powers['Connected Load'] = None
 powers['dist_I'] = None
 
 
-
-
-
 # set up RT Lab environment
-RT.OpenProject("C:\\Users\\fghow\\OPAL-RT\\RT-LABv2022.1_Workspace\\DC_Microgrid_6\\DC_Microgrid_6.llp")
+RT.OpenProject("C:\\Users\\fghow\\Documents\\Auckland\\CosimulationProject\\DC_Microgrid\\DC_Microgrid_6.llp")
 
 realTimeMode = RT.SOFT_SIM_MODE
 RT.Load(realTimeMode,1)
@@ -51,13 +48,8 @@ for i in powers.index:
 #    print("Time: ", powers['Time'][i], ", Load (kW): " , round(powers['dif'][i], 2))
 
     kV = dss.Loads.kV()
-
     
-    # change this! needs to be simulink parameter
     RT.SetSignalsByName('V_rms', kV*1000)
- #     RT.SetVariables(('V_in', kV*1000)) # changed to parameter
-
-
 
     RT.SetSignalsByName('P_load', powers['Net Load'][i] * 1000) # set load in W, positive is power leaving the grid
 
