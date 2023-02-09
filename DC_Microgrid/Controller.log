@@ -13060,3 +13060,99 @@ Verify that the node is up and is connected to network.
 2023-2-8 12h38m39s:CClient.cpp  clientThread exit. ThreadParam = 0x441a4c0
 2023-2-8 12h38m39s:ControllerExit.cppEntering CloseSubControllers
 2023-2-8 12h38m39s:Stopping OpalNode watchdog.
+2023-2-9 14h11m44s:Using default NodeSessions limit.  Limit set to 1024.
+2023-2-9 14h11m44s: >>>> SessionRoot::initialize port 0
+2023-2-9 14h11m44s:Begin to register on OpalRoot
+2023-2-9 14h11m44s:Registered on OpalRoot, port 25251
+2023-2-9 14h11m44s:Loading services from "C:/OPAL-RT/RT-LAB/2022.1/common/bin/x64/Services"
+2023-2-9 14h11m44s:  Plugin "DataAcquisition": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "DriverIdentification": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "Dummy": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "ePHASORSIM": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "HEI": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "IEC104": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "Matlab": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "MODBUS": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "Parameters": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "Pickering-41-752": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "RFM": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "SimulationSetup": services informations retrieved
+2023-2-9 14h11m44s:  Plugin "Web": services informations retrieved
+2023-2-9 14h11m44s:Root initialized: 172.24.23.107:25251/resources/root
+2023-2-9 14h11m44s:Service Web/Server found
+2023-2-9 14h11m44s:Initialization done
+2023-2-9 14h11m44s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 7740) ------
+2023-2-9 14h11m44s:Controller.cppnew client: 19656
+2023-2-9 14h11m44s:CClient.cppCreating new client ID: 20168
+2023-2-9 14h11m44s:CClient.cppclientThread started with port:1248
+2023-2-9 14h11m44s:Instance ID = 0
+2023-2-9 14h11m44s:CClient.cppClient connected: name "fghow", computer "FRITZ-XPS", ip "127.0.0.1", pid 5228
+2023-2-9 14h11m44s:Service SimulationSetup/SimulationSetup found
+2023-2-9 14h11m44s:Service SimulationSetup/AliasesService found
+2023-2-9 14h11m44s:Service DriverIdentification/DriverIdentification found
+2023-2-9 14h11m44s:DataLogger library loaded
+2023-2-9 14h11m44s:DataLogger: fillPropertyTree
+2023-2-9 14h11m44s:Node '172.24.23.107:25251/resources/root/proxy/C20B0FCE-AA49-4CC6-B4E8-47A088FBDB87/E9EB0FA8-205C-4BE4-A346-58CBB02E65FE' is alive, proceed registerNode.
+2023-2-9 14h11m44s:DataLogger: fillPropertyTree
+2023-2-9 14h11m44s:DataLogger: fillPropertyTree
+2023-2-9 14h11m44s:Node '172.24.23.107:25251/resources/root/proxy/C20B0FCE-AA49-4CC6-B4E8-47A088FBDB87/6A693BDA-E2D3-4245-82BA-421C0A1A4383' is alive, proceed registerNode.
+2023-2-9 14h11m44s:DataLogger: fillPropertyTree
+2023-2-9 14h11m44s: start generating JSON IO configuration : io_name=RECORDER_DC_Microgrid_6_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json
+2023-2-9 14h11m44s: Saved '2' datapoints in 2.1846ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json'
+2023-2-9 14h11m44s: start generating JSON IO configuration : io_name=RECORDER_ssc_bridge_rectifier_rt_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json
+2023-2-9 14h11m44s: Saved '2' datapoints in 2.6621ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json'
+2023-2-9 14h11m44s: start generating JSON IO configuration : io_name=RECORDER_DC_Microgrid_6_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json
+2023-2-9 14h11m44s: Saved '2' datapoints in 2.2253ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json'
+2023-2-9 14h11m44s: start generating JSON IO configuration : io_name=RECORDER_ssc_bridge_rectifier_rt_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json
+2023-2-9 14h11m44s: Saved '2' datapoints in 2.1713ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json'
+2023-2-9 14h11m45s: start generating JSON IO configuration : io_name=RECORDER_DC_Microgrid_6_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json
+2023-2-9 14h11m45s: Saved '2' datapoints in 2.9224ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_DC_Microgrid_6_sm_circuit.json'
+2023-2-9 14h11m45s: start generating JSON IO configuration : io_name=RECORDER_ssc_bridge_rectifier_rt_sm_circuit ; jsonConfigurationFile=C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json
+2023-2-9 14h11m45s: Saved '2' datapoints in 2.6435ms into configuration file 'C:/Users/fghow/Documents/Auckland/CosimulationProject/DC_Microgrid/configurations/configuration_Default/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_ssc_bridge_rectifier_rt_sm_circuit.json'
+2023-2-9 14h11m45s:Controller.cppnew client: 19656
+2023-2-9 14h11m45s:CClient.cppCreating new client ID: 19716
+2023-2-9 14h11m45s:CClient.cppclientThread started with port:2096
+2023-2-9 14h11m45s:Instance ID = 102
+2023-2-9 14h11m45s:CClient.cppClient connected: name "fghow", computer "FRITZ-XPS", ip "127.0.0.1", pid 5228
+2023-2-9 14h11m45s:ControllerHandleRequest.cpppClient->notifCommSock = 2072
+2023-2-9 14h11m45s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1026
+2023-2-9 14h11m45s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1009
+2023-2-9 14h11m45s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,2015
+2023-2-9 14h11m45s:update RECORDER_DC_Microgrid_6_sm_circuit
+2023-2-9 14h11m45s:DataLogger: fillPropertyTree
+2023-2-9 14h11m45s:Node '172.24.23.107:25251/resources/root/proxy/C20B0FCE-AA49-4CC6-B4E8-47A088FBDB87/E9EB0FA8-205C-4BE4-A346-58CBB02E65FE' is alive, proceed registerNode.
+2023-2-9 14h11m45s:update duration = 4.0598 ms
+2023-2-9 14h11m46s:update RECORDER_ssc_bridge_rectifier_rt_sm_circuit
+2023-2-9 14h11m46s:DataLogger: fillPropertyTree
+2023-2-9 14h11m46s:Node '172.24.23.107:25251/resources/root/proxy/C20B0FCE-AA49-4CC6-B4E8-47A088FBDB87/6A693BDA-E2D3-4245-82BA-421C0A1A4383' is alive, proceed registerNode.
+2023-2-9 14h11m46s:update duration = 4.676 ms
+2023-2-9 14h11m48s:Controller.cppnew client: 19656
+2023-2-9 14h11m48s:CClient.cppCreating new client ID: 5984
+2023-2-9 14h11m48s:CClient.cppclientThread started with port:2228
+2023-2-9 14h11m48s:Instance ID = 102
+2023-2-9 14h11m48s:CClient.cppClient connected: name "fghow", computer "FRITZ-XPS", ip "127.0.0.1", pid 5228
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : will open C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx opened
+2023-2-9 14h16m37s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2023-2-9 14h16m37s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2023-2-9 14h16m37s:Controller.cppNOTIFICATION MSG IS: 216455356602122240
+2023-2-9 14h16m37s:ControllerHandleRequest.cpppClient->notifCommSock = 1636
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : will open C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx opened
+2023-2-9 14h16m37s:Controller.cppnew client: 19656
+2023-2-9 14h16m37s:CClient.cppCreating new client ID: 19852
+2023-2-9 14h16m37s:CClient.cppclientThread started with port:1596
+2023-2-9 14h16m37s:Instance ID = 102
+2023-2-9 14h16m37s:CClient.cppClient connected: name "fghow", computer "FRITZ-XPS", ip "127.0.0.1", pid 5228
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : will open C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx
+2023-2-9 14h16m37s:Archive.cppArchiveFileToString : C:\Users\fghow\Documents\Auckland\CosimulationProject\DC_Microgrid\models\DC_Microgrid_6\DC_Microgrid_6.slx opened
+2023-2-9 14h16m46s:Controller.cppnew client: 19656
+2023-2-9 14h16m46s:CClient.cppCreating new client ID: 17576
+2023-2-9 14h16m46s:CClient.cppclientThread started with port:2256
+2023-2-9 14h16m46s:Instance ID = 102
+2023-2-9 14h16m46s:CClient.cppClient connected: name "fghow", computer "FRITZ-XPS", ip "127.0.0.1", pid 5228
+2023-2-9 14h16m46s:Controller.cppNOTIFICATION MSG IS: 2089389851634844840,2045
+2023-2-9 14h16m46s:>>> Using MatlabCOM as in-process server
+2023-2-9 14h16m46s:Service Matlab/CommandsProcessor found
+2023-2-9 14h17m20s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2023-2-9 14h17m21s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])

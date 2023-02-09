@@ -1,2 +1,0 @@
-    ssc_bridge_rectifier_1_sm_circuit.c
-
